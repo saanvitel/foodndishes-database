@@ -1,0 +1,1 @@
+create table ingredients(id int, name varchar, taste varchar, type varchar);

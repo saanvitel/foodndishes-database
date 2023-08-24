@@ -1,0 +1,1 @@
+create table dishes(id int, name varchar, country varchar, taste varchar, meal varchar, vegetarian_or_vegan boolean, ingredientsID int);
