@@ -1,0 +1,2 @@
+create table dishes(dishes_id INTEGER primary key AUTOINCREMENT, name varchar, country varchar, taste varchar, meal varchar, vegetarian_or_vegan boolean, cuisines_id INTEGER, FOREIGN KEY (cuisines_id) REFERENCES "cuisines" (cuisines_id)
+                ON DELETE NO ACTION ON UPDATE NO ACTION);
