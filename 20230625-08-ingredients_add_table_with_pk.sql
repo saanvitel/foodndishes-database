@@ -1,0 +1,1 @@
+create table ingredients(ingredients_id INTEGER primary key AUTOINCREMENT, name varchar, taste varchar, type varchar);
