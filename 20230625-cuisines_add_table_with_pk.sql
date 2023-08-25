@@ -1,0 +1,1 @@
+create table cuisines(cuisines_id INTEGER primary key AUTOINCREMENT, name varchar, country varchar, region varchar);
