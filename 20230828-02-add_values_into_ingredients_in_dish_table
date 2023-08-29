@@ -1,0 +1,62 @@
+INSERT INTO ingredients_in_dish (ingredients_id, dishes_id)
+VALUES ((select ingredients_id from ingredients where name = 'Rice'), (select dishes_id from dishes where name = 'Vegetable Pulao'));
+INSERT INTO ingredients_in_dish (ingredients_id, dishes_id)
+VALUES ((select ingredients_id from ingredients where name = 'Rice'), (select dishes_id from dishes where name = 'Hyderabadi Biriyani'));
+INSERT INTO ingredients_in_dish (ingredients_id, dishes_id)
+VALUES ((select ingredients_id from ingredients where name = 'Rice'), (select dishes_id from dishes where name = 'Dosa'));
+INSERT INTO ingredients_in_dish (ingredients_id, dishes_id)
+VALUES ((select ingredients_id from ingredients where name = 'Rice'), (select dishes_id from dishes where name = 'Idli'));
+INSERT INTO ingredients_in_dish (ingredients_id, dishes_id)
+VALUES ((select ingredients_id from ingredients where name = 'Rice'), (select dishes_id from dishes where name = 'Poha'));
+INSERT INTO ingredients_in_dish (ingredients_id, dishes_id)
+VALUES ((select ingredients_id from ingredients where name = 'Rice'), (select dishes_id from dishes where name = 'Pulihaura'));
+INSERT INTO ingredients_in_dish (ingredients_id, dishes_id)
+VALUES ((select ingredients_id from ingredients where name = 'Wheat Flour'), (select dishes_id from dishes where name = 'Scones'));
+INSERT INTO ingredients_in_dish (ingredients_id, dishes_id)
+VALUES ((select ingredients_id from ingredients where name = 'Wheat Flour'), (select dishes_id from dishes where name = 'Gobi Manchurian'));
+INSERT INTO ingredients_in_dish (ingredients_id, dishes_id)
+VALUES ((select ingredients_id from ingredients where name = 'Wheat Flour'), (select dishes_id from dishes where name = 'Paneer 65'));
+INSERT INTO ingredients_in_dish (ingredients_id, dishes_id)
+VALUES ((select ingredients_id from ingredients where name = 'Wheat Flour'), (select dishes_id from dishes where name = 'Meat Pie'));
+INSERT INTO ingredients_in_dish (ingredients_id, dishes_id)
+VALUES ((select ingredients_id from ingredients where name = 'Wheat Flour'), (select dishes_id from dishes where name = 'Lasagne'));
+INSERT INTO ingredients_in_dish (ingredients_id, dishes_id)
+VALUES ((select ingredients_id from ingredients where name = 'Wheat Flour'), (select dishes_id from dishes where name = 'Chilli Paneer'));
+INSERT INTO ingredients_in_dish (ingredients_id, dishes_id)
+VALUES ((select ingredients_id from ingredients where name = 'Rice Flour'), (select dishes_id from dishes where name = 'Papdi Chaat'));
+INSERT INTO ingredients_in_dish (ingredients_id, dishes_id)
+VALUES ((select ingredients_id from ingredients where name = 'Rice Flour'), (select dishes_id from dishes where name = 'Murruku/Kara'));
+INSERT INTO ingredients_in_dish (ingredients_id, dishes_id)
+VALUES ((select ingredients_id from ingredients where name = 'Semolina Flour'), (select dishes_id from dishes where name = 'Pani Puri'));
+INSERT INTO ingredients_in_dish (ingredients_id, dishes_id)
+VALUES ((select ingredients_id from ingredients where name = 'Semolina Flour'), (select dishes_id from dishes where name = 'Lasagne'));
+INSERT INTO ingredients_in_dish (ingredients_id, dishes_id)
+VALUES ((select ingredients_id from ingredients where name = 'Semolina'), (select dishes_id from dishes where name = 'Pani Puri'));
+INSERT INTO ingredients_in_dish (ingredients_id, dishes_id)
+VALUES ((select ingredients_id from ingredients where name = 'Coriander'), (select dishes_id from dishes where name = 'Pani Puri'));
+INSERT INTO ingredients_in_dish (ingredients_id, dishes_id)
+VALUES ((select ingredients_id from ingredients where name = 'Mint'), (select dishes_id from dishes where name = 'Pani Puri'));
+INSERT INTO ingredients_in_dish (ingredients_id, dishes_id)
+VALUES ((select ingredients_id from ingredients where name = 'Paneer'), (select dishes_id from dishes where name = 'Paneer 65'));
+INSERT INTO ingredients_in_dish (ingredients_id, dishes_id)
+VALUES ((select ingredients_id from ingredients where name = 'Paneer'), (select dishes_id from dishes where name = 'Chilli Paneer'));
+INSERT INTO ingredients_in_dish (ingredients_id, dishes_id)
+VALUES ((select ingredients_id from ingredients where name = 'Coriander'), (select dishes_id from dishes where name = 'Vegetable Pulao'));
+INSERT INTO ingredients_in_dish (ingredients_id, dishes_id)
+VALUES ((select ingredients_id from ingredients where name = 'Mint'), (select dishes_id from dishes where name = 'Vegetable Pulao'));
+INSERT INTO ingredients_in_dish (ingredients_id, dishes_id)
+VALUES ((select ingredients_id from ingredients where name = 'Potato'), (select dishes_id from dishes where name = 'Vegetable Pulao'));
+INSERT INTO ingredients_in_dish (ingredients_id, dishes_id)
+VALUES ((select ingredients_id from ingredients where name = 'Carrot'), (select dishes_id from dishes where name = 'Vegetable Pulao'));
+INSERT INTO ingredients_in_dish (ingredients_id, dishes_id)
+VALUES ((select ingredients_id from ingredients where name = 'Tomato'), (select dishes_id from dishes where name = 'Pav Bhaji'));
+INSERT INTO ingredients_in_dish (ingredients_id, dishes_id)
+VALUES ((select ingredients_id from ingredients where name = 'Tomato'), (select dishes_id from dishes where name = 'Papdi Chaat'));
+INSERT INTO ingredients_in_dish (ingredients_id, dishes_id)
+VALUES ((select ingredients_id from ingredients where name = 'Tomato'), (select dishes_id from dishes where name = 'Lasagne'));
+INSERT INTO ingredients_in_dish (ingredients_id, dishes_id)
+VALUES ((select ingredients_id from ingredients where name = 'Tomato'), (select dishes_id from dishes where name = 'Pav Bhaji'));
+INSERT INTO ingredients_in_dish (ingredients_id, dishes_id)
+VALUES ((select ingredients_id from ingredients where name = 'Potato'), (select dishes_id from dishes where name = 'Pav Bhaji'));
+INSERT INTO ingredients_in_dish (ingredients_id, dishes_id)
+VALUES ((select ingredients_id from ingredients where name = 'Potato'), (select dishes_id from dishes where name = 'French Fries'));

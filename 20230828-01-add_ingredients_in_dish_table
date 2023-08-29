@@ -1,0 +1,1 @@
+create table ingredients_in_dish(ingredients_id INTEGER, dishes_id INTEGER, FOREIGN KEY (ingredients_id) REFERENCES "ingredients" (ingredients_id) ON DELETE NO ACTION ON UPDATE NO ACTION, FOREIGN KEY (dishes_id) REFERENCES "dishes" (dishes_id) ON DELETE NO ACTION ON UPDATE NO ACTION);
