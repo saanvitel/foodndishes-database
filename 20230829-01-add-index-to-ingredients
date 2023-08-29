@@ -1,0 +1,1 @@
+CREATE INDEX ingredients_name_asc ON ingredients(name ASC);

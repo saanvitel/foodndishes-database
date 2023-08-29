@@ -55,7 +55,7 @@ VALUES ((select ingredients_id from ingredients where name = 'Tomato'), (select 
 INSERT INTO ingredients_in_dish (ingredients_id, dishes_id)
 VALUES ((select ingredients_id from ingredients where name = 'Tomato'), (select dishes_id from dishes where name = 'Lasagne'));
 INSERT INTO ingredients_in_dish (ingredients_id, dishes_id)
-VALUES ((select ingredients_id from ingredients where name = 'Tomato'), (select dishes_id from dishes where name = 'Pav Bhaji'));
+VALUES ((select ingredients_id from ingredients where name = 'Tomato'), (select dishes_id from dishes where name = 'Meat Pie'));
 INSERT INTO ingredients_in_dish (ingredients_id, dishes_id)
 VALUES ((select ingredients_id from ingredients where name = 'Potato'), (select dishes_id from dishes where name = 'Pav Bhaji'));
 INSERT INTO ingredients_in_dish (ingredients_id, dishes_id)

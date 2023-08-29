@@ -1,0 +1,1 @@
+CREATE INDEX dishes_index ON dishes(name, country, meal);
